@@ -19,6 +19,9 @@ export ANDROID_JACK_VM_ARGS += "-Xmx4096m"
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/pixeldust/overlay/common
 
+# Use signing keys for official builds
+PRODUCT_DEFAULT_DEV_CERTIFICATE := ../.android-certs/releasekey
+
 # Main Required Packages
 PRODUCT_PACKAGES += \
     DeskClock \
