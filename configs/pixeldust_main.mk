@@ -38,3 +38,6 @@ PRODUCT_PACKAGES += \
 # Inherit pixel prebuilt apks
 $(call inherit-product-if-exists, vendor/pixel_prebuilts/pixel-prebuilts.mk)
 
+# Slim Framework
+include frameworks/slim/slim_framework.mk
+
