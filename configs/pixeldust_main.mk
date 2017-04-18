@@ -32,6 +32,6 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     LockClock
 
-# Inherit arm64 phone gapps gapps
-$(call inherit-product-if-exists, vendor/gapps/arm64-phone-gapps.mk)
+# Inherit pixel gapps
+$(call inherit-product-if-exists, vendor/pixeldust/prebuilt/pixel-gapps/pixel-gapps.mk)
 
