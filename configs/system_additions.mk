@@ -36,9 +36,6 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.secure=0 \
     persist.service.adb.enable=1
 
-# Speed up compiling time
-EXCLUDE_SYSTEMUI_TESTS := true
-
 # Tell Substratum that this ROM has full support
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.substratum.verified=true

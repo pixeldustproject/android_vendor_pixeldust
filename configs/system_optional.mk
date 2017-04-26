@@ -15,3 +15,10 @@
 # Include KernelAdiutor-Mod
 PRODUCT_PACKAGES += \
     KernelAdiutor
+
+# Speed up compiling time
+EXCLUDE_SYSTEMUI_TESTS := true
+
+# Unlock some extra performance
+HWUI_COMPILE_FOR_PERF := true
+
