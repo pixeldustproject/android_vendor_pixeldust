@@ -56,6 +56,11 @@
         <item>com.google.android.apps.tycho</item>
     </string-array>
 
+    <!-- Wallpaper cropper package. Used as the default cropper if the active launcher doesn't
+         handle wallpaper cropping.
+    -->
+    <string name="config_wallpaperCropperPackage" translatable="false">com.android.wallpaperpicker</string>
+
     <!-- set default widget options to use googles clock -->
     <string name="widget_default_package_name">com.google.android.deskclock</string>
     <string name="widget_default_class_name">com.android.alarmclock.DigitalAppWidgetProvider</string>

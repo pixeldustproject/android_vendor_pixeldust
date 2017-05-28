@@ -33,7 +33,8 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     OmniSwitch \
     PixelDustWallpapers \
-    Turbo
+    Turbo \
+    WallpaperPicker
 
 # Inherit pixel prebuilt apks
 $(call inherit-product-if-exists, vendor/pixel_prebuilts/pixel-prebuilts.mk)
