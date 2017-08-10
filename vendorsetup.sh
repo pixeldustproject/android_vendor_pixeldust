@@ -32,3 +32,5 @@ add_lunch_combo pixeldust_sailfish-userdebug
 add_lunch_combo pixeldust_bullhead-userdebug
 add_lunch_combo pixeldust_mako-userdebug
 add_lunch_combo pixeldust_angler-userdebug
+add_lunch_combo pixeldust_hammerhead-userdebug
+
