@@ -27,3 +27,9 @@ endif
 ifeq (pixeldust_angler,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pixeldust_angler.mk
 endif
+ifeq (twrp_marlin,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/twrp_marlin.mk
+endif
+
+
+
